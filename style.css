@@ -76,7 +76,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: rgb(44,90,131);
+  color: rgb(44, 90, 131);
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -93,7 +93,7 @@ section .title::after {
 }
 .navbar.sticky {
   padding: 15px 0;
-  background: rgb(44,90,131);
+  background: rgb(44, 90, 131);
 }
 .navbar .max-width {
   display: flex;
@@ -106,7 +106,7 @@ section .title::after {
   font-weight: 600;
 }
 .navbar .logo a span {
-  color: rgb(44,90,131);
+  color: rgb(44, 90, 131);
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -125,7 +125,7 @@ section .title::after {
   transition: color 0.3s ease;
 }
 .navbar .nav li a:hover {
-  color: rgb(44,90,131);
+  color: rgb(44, 90, 131);
 }
 .navbar.sticky .nav li a:hover {
   color: #fff;
@@ -142,7 +142,7 @@ section .title::after {
   position: fixed;
   height: 45px;
   width: 42px;
-  background: rgb(44,90,131);
+  background: rgb(44, 90, 131);
   right: 30px;
   bottom: 10px;
   text-align: center;
@@ -193,23 +193,23 @@ section .title::after {
   margin: 5px 0;
 }
 .home .home-content .text-3 span {
-  color: rgb(44,90,131);
+  color: rgb(44, 90, 131);
   font-weight: 500;
 }
 .home .home-content a {
   display: inline-block;
-  background: rgb(235,156,119);
+  background: rgb(235, 156, 119);
   color: #fff;
   font-size: 25px;
   padding: 12px 36px;
   margin-top: 20px;
   font-weight: 400;
   border-radius: 6px;
-  border: 2px solid rgb(235,156,119);
+  border: 2px solid rgb(235, 156, 119);
   transition: all 0.3s ease;
 }
 .home .home-content a:hover {
-  color: rgb(235,156,119);
+  color: rgb(235, 156, 119);
   background: none;
 }
 
@@ -235,25 +235,25 @@ section .title::after {
   margin-bottom: 10px;
 }
 .about .about-content .right .text span {
-  color: rgb(44,90,131);
+  color: rgb(44, 90, 131);
 }
 .about .about-content .right p {
   text-align: justify;
 }
 .about .about-content .right a {
   display: inline-block;
-  background: rgb(44,90,131);
+  background: rgb(44, 90, 131);
   color: #fff;
   font-size: 20px;
   font-weight: 500;
   padding: 10px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid rgb(44,90,131);
+  border: 2px solid rgb(44, 90, 131);
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
-  color: rgb(44,90,131);
+  color: rgb(44, 90, 131);
   background: none;
 }
 
@@ -262,6 +262,7 @@ section .title::after {
 .skills .title::after {
   content: "experience";
 }
+
 .skills .skills-content .column {
   width: calc(50% - 30px);
 }
@@ -275,58 +276,63 @@ section .title::after {
 }
 .skills .skills-content .left a {
   display: inline-block;
-  background: rgb(44,90,131);
+  background: rgb(44, 90, 131);
   color: #fff;
   font-size: 18px;
   font-weight: 500;
   padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid rgb(44,90,131);
+  border: 2px solid rgb(44, 90, 131);
   transition: all 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-  color: rgb(44,90,131);
+  color: rgb(44, 90, 131);
   background: none;
 }
-.skills .skills-content .right .bars {
-  margin-bottom: 15px;
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.skills .skills-content .right .info {
-  display: flex;
-  margin-bottom: 5px;
-  align-items: center;
-  justify-content: space-between;
+
+.grid-item {
+  margin: 15px;
+  padding: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
-.skills .skills-content .right span {
-  font-weight: 500;
-  font-size: 18px;
+
+.html {
+  background-image: url("images/html.png");
 }
-.skills .skills-content .right .line {
-  height: 5px;
-  width: 100%;
-  background: lightgrey;
-  position: relative;
+
+.css {
+  background-image: url("images/CSS.png");
 }
-.skills .skills-content .right .line::before {
-  content: "";
-  position: absolute;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: rgb(44,90,131);
+
+.js {
+  background-image: url("images/js.png");
 }
-.skills-content .right .html::before {
-  width: 90%;
+
+.bs {
+  background-image: url("images/bootstrap.png");
 }
-.skills-content .right .css::before {
-  width: 70%;
+.react {
+  background-image: url("images/react.png");
 }
-.skills-content .right .js::before {
-  width: 60%;
+
+.express {
+  background-image: url("images/express.jpg");
 }
-.skills-content .right .bootstrap::before {
-  width: 65%;
+
+.git {
+  background-image: url("images/git.png");
+}
+
+.python {
+  background-image: url("images/python.jpg");
 }
 
 /* contact section styling */
@@ -357,7 +363,7 @@ section .title::after {
 }
 .contact .contact-content .row i {
   font-size: 25px;
-  color: rgb(44,90,131);
+  color: rgb(44, 90, 131);
 }
 .contact .contact-content .info .head {
   font-weight: 500;
@@ -411,8 +417,8 @@ section .title::after {
 .contact .right form .button button {
   width: 100%;
   height: 100%;
-  border: 2px solid rgb(44,90,131);
-  background: rgb(44,90,131);
+  border: 2px solid rgb(44, 90, 131);
+  background: rgb(44, 90, 131);
   color: #fff;
   outline: none;
   font-size: 20px;
@@ -422,16 +428,18 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .contact .right form .button button:hover {
-  color: rgb(44,90,131);
+  color: rgb(44, 90, 131);
   background: none;
 }
-
-
 
 /* responsive media query start */
 @media (max-width: 1300px) {
   .home .max-width {
     margin-left: 0px;
+  }
+
+  .grid-item {
+    padding: 45px;
   }
 }
 
@@ -439,6 +447,10 @@ section .title::after {
   .about .about-content .left img {
     height: 350px;
     width: 350px;
+  }
+
+  .grid-item {
+    padding: 40px;
   }
 }
 
@@ -510,6 +522,13 @@ section .title::after {
     width: 100%;
     margin-bottom: 35px;
   }
+
+  .grid {
+    margin: 0 auto;
+  }
+  .grid-item {
+    padding: 45px;
+  }
 }
 
 @media (max-width: 690px) {
@@ -555,5 +574,15 @@ section .title::after {
     width: 35px;
     font-size: 23px;
     line-height: 38px;
+  }
+
+  .grid-item {
+    padding: 35px;
+  }
+}
+
+@media (max-width: 400px) {
+  .grid-item {
+    padding: 25px;
   }
 }
