@@ -266,15 +266,15 @@ section .title::after {
 .skills .skills-content .column {
   width: calc(50% - 30px);
 }
-.skills .skills-content .left .text {
+.skills .skills-content .text {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 10px;
 }
-.skills .skills-content .left p {
+.skills .skills-content p {
   text-align: justify;
 }
-.skills .skills-content .left a {
+.skills .skills-content a {
   display: inline-block;
   background: rgb(44, 90, 131);
   color: #fff;
@@ -286,7 +286,7 @@ section .title::after {
   border: 2px solid rgb(44, 90, 131);
   transition: all 0.3s ease;
 }
-.skills .skills-content .left a:hover {
+.skills .skills-content a:hover {
   color: rgb(44, 90, 131);
   background: none;
 }
@@ -340,7 +340,8 @@ section .title::after {
   content: "hire me";
 }
 .contact .contact-content .column {
-  width: calc(50% - 30px);
+  width: calc(60% - 30px);
+  margin: 0 auto;
 }
 .contact .contact-content .text {
   font-size: 20px;
@@ -370,66 +371,6 @@ section .title::after {
 }
 .contact .contact-content .info .sub-title {
   color: #333;
-}
-.contact .right form .fields {
-  display: flex;
-}
-.contact .right form .field,
-.contact .right form .fields .field {
-  height: 45px;
-  width: 100%;
-  margin-bottom: 15px;
-}
-.contact .right form .textarea {
-  height: 80px;
-  width: 100%;
-}
-.contact .right form .name {
-  margin-right: 10px;
-}
-.contact .right form .email {
-  margin-left: 10px;
-}
-.contact .right form .field input,
-.contact .right form .textarea textarea {
-  height: 100%;
-  width: 100%;
-  border: 1px solid lightgrey;
-  border-radius: 6px;
-  outline: none;
-  padding: 0 15px;
-  font-size: 17px;
-  font-family: "Poppins", sans-serif;
-  transition: all 0.3s ease;
-}
-.contact .right form .field input:focus,
-.contact .right form .textarea textarea:focus {
-  border-color: #b3b3b3;
-}
-.contact .right form .textarea textarea {
-  padding-top: 10px;
-  resize: none;
-}
-.contact .right form .button {
-  height: 47px;
-  width: 170px;
-}
-.contact .right form .button button {
-  width: 100%;
-  height: 100%;
-  border: 2px solid rgb(44, 90, 131);
-  background: rgb(44, 90, 131);
-  color: #fff;
-  outline: none;
-  font-size: 20px;
-  font-weight: 500;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.contact .right form .button button:hover {
-  color: rgb(44, 90, 131);
-  background: none;
 }
 
 /* responsive media query start */
@@ -560,13 +501,7 @@ section .title::after {
   .skills .skills-content .left .text {
     font-size: 19px;
   }
-  .contact .right form .fields {
-    flex-direction: column;
-  }
-  .contact .right form .name,
-  .contact .right form .email {
-    margin: 0;
-  }
+
   .scroll-up-btn {
     right: 15px;
     bottom: 15px;
