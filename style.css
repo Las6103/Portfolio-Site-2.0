@@ -26,7 +26,7 @@ html {
   background: #555;
 }
 
-/* all similar content styling codes */
+/* all similar styling */
 section {
   padding: 100px 0;
 }
@@ -81,7 +81,7 @@ section .title::after {
   transform: translateX(-50%);
 }
 
-/* navbar styling */
+/* navbar */
 .navbar {
   position: fixed;
   width: 100%;
@@ -130,7 +130,7 @@ section .title::after {
   color: #fff;
 }
 
-/* nav btn styling */
+/* nav btn */
 .nav-btn {
   color: #fff;
   font-size: 23px;
@@ -165,7 +165,7 @@ section .title::after {
   filter: brightness(90%);
 }
 
-/* home section styling */
+/* home section */
 .home {
   display: flex;
   background: url("images/4k-desktop-wallpaper.-2560×1080.jpg") no-repeat center;
@@ -212,7 +212,7 @@ section .title::after {
   background: none;
 }
 
-/* about section styling */
+/* about section */
 .about .title::after {
   content: "my story";
 }
@@ -256,7 +256,7 @@ section .title::after {
   background: none;
 }
 
-/* skills section styling */
+/* skills section */
 
 .skills .title::after {
   content: "experience";
@@ -334,7 +334,7 @@ section .title::after {
   background-image: url("images/python-logo-master-v3-TM.png");
 }
 
-/* contact section styling */
+/* contact section */
 .contact .title::after {
   content: "hire me";
 }
@@ -372,7 +372,7 @@ section .title::after {
   color: #333;
 }
 
-/* responsive media query start */
+/* responsive section */
 @media (max-width: 1300px) {
   .home .max-width {
     margin-left: 0px;
