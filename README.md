@@ -1,4 +1,4 @@
-# Portfolio-Site-2.0
+# Portfolio Site
 
 ## Description
 This is the repository for my super awesome portfolio website!!!!
