@@ -520,3 +520,9 @@ section .title::after {
     padding: 25px;
   }
 }
+
+@media (max-width: 350px) {
+  .grid-item {
+    padding: 20px;
+  }
+}
