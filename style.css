@@ -170,10 +170,11 @@ section .title::after {
   display: flex;
   background: url("images/4k-desktop-wallpaper.-2560×1080.jpg") no-repeat center;
   height: 100vh;
+  max-width: 100%;
   color: #fff;
   min-height: 500px;
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   font-family: "Ubuntu", sans-serif;
 }
 .home .max-width {
